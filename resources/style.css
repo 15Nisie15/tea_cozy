@@ -17,6 +17,7 @@ header {
   height: 69px;
   width: 100%;
   position: fixed;
+  z-index: 1;
   border-bottom: 1px solid seashell;
   background-color: black;
 
@@ -29,15 +30,40 @@ header {
 
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 
 }
 
-nav span {
-  text-decoration: underline;
-  display: inline-block;
-  padding: auto 10px;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: underine;
+
+}
+
+.imagebanner {
+  background-image: url("./resources/images/img-mission-background.jpg")
+  display: flex;
+  align-items: center;
+  height: 700px;
+  z-index: 2;
+
+}
+
+.intro {
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.teaphoto {
+  height: 200px;
+  width: 300px;
 
 }
