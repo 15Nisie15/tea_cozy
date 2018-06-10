@@ -8,21 +8,36 @@ body {
 
 }
 
+a {
+  color: seashell;
+}
+
 header {
+  display: flex;
   height: 69px;
+  width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
+  background-color: black;
 
 }
 
-.logo {
+.logo img {
   height: 50px;
   padding-left: 10px;
+  justify-content: flex-start;
 
 }
 
 nav {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav span {
   text-decoration: underline;
-  
+  display: inline-block;
+  padding: auto 10px;
+
 }
