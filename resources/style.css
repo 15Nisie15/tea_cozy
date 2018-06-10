@@ -1,56 +1,62 @@
+/* Universal Styles */
+
+
 body {
-  font-family: Helvetica;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  max-width: 1200px;
-
 }
 
 a {
   color: seashell;
 }
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+/* Other Universal Styles - not sure yet */
+
 /* Header */
 
 header {
   display: flex;
   align-items: center;
-  height: 69px;
-  width: 100%;
   position: fixed;
   z-index: 1;
+  height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
-
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  flex-grow: 1;
   padding-left: 10px;
-
 }
 
 .logo img {
   height: 50px;
-
 }
 
 header nav {
   padding-right: 10px;
-  justify-content: flex-end;
-
 }
 
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-  text-align: right;
-
-
+/* Main Content Container */
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto;
 }
 
 /* Mission Banner */
