@@ -57,43 +57,39 @@ header nav {
   display: flex;
   width: 1232px;
   margin: 0 auto;
+  padding-top: 69px;
 }
 
 /* Mission Banner */
 
 .imagebanner {
-  background-image: url("./resources/images/img-mission-background.jpg")
-  display: flex;
-  align-items: center;
+  background-image: url("./resources/images/img-mission-background.jpg");
+  width: 1200px;
   height: 700px;
-  width: 100%;
-  z-index: 2;
 
 }
 
-.intro {
+.imagebanner span {
+  margin: auto auto;
   background-color: black;
-  display: flex;
-  align-items: center;
-
-}
+  }
 
 /* Tea of the Month Section */
 
 .teaofthemonth {
   display: flex;
   width: 1000px;
-  z-index: 3;
-
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .teaphoto {
   height: 200px;
   width: 300px;
-  display: inline-block;
-  flex-direction: row;
-  justify-content: space-between;
+}
 
+.caption {
+  padding: 10px auto;
 }
 
  /* Locations Section */
@@ -101,7 +97,19 @@ header nav {
  .locations {
    display: flex;
    z-index: 4;
-
  }
 
+.addressbox {
+
+}
+
  /* Footer */
+
+ footer {
+   height: 200px;
+ }
+
+ .copyright {
+   text-align: left;
+   padding-left: 20px;
+ }
