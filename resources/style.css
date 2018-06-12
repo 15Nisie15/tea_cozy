@@ -82,32 +82,45 @@ header nav {
   display: flex;
   width: 1000px;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-items: space-around;
+  justify-content: center;
 }
 
 .teaphoto {
   display: flex;
-  width: 300px;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .berry {
   background-image: url("./images/img-berryblitz.jpg");
+  width: 300px;
+  height: 200px;
+  flex-shrink: 3;
 }
 
 .rum {
   background-image: url("./images/img-spiced-rum.jpg");
+  width: 300px;
+  height: 200px;
 }
 
 .donut {
   background-image: url("./images/img-donut.jpg");
+  width: 300px;
+  height: 200px;
 }
 
 .myrtle {
   background-image: url("./images/img-myrtle-ave.jpg");
+  width: 300px;
+  height: 200px;
 }
 
 .bedford {
   background-image: url("./images/img-bedford-bizarre.jpg");
+  width: 300px;
+  height: 200px;
 }
 
 .caption {
