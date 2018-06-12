@@ -81,6 +81,7 @@ header nav {
 .teaofthemonth {
   display: flex;
   width: 1000px;
+  height: auto;
   flex-wrap: wrap;
   align-items: space-around;
   justify-content: center;
@@ -90,42 +91,50 @@ header nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 10px;
 }
 
 .berry {
   background-image: url("./images/img-berryblitz.jpg");
+  background-size: contain;
   width: 300px;
   height: 200px;
-  flex-shrink: 3;
 }
+
 
 .rum {
   background-image: url("./images/img-spiced-rum.jpg");
+  background-size: contain;
   width: 300px;
   height: 200px;
 }
 
 .donut {
   background-image: url("./images/img-donut.jpg");
+  background-size: contain;
   width: 300px;
   height: 200px;
 }
 
 .myrtle {
   background-image: url("./images/img-myrtle-ave.jpg");
+  background-size: contain;
   width: 300px;
   height: 200px;
 }
 
 .bedford {
   background-image: url("./images/img-bedford-bizarre.jpg");
+  background-size: contain;
   width: 300px;
   height: 200px;
 }
 
 .caption {
-  padding: 10px auto;
+  height: 42px;
+  width: 300px;
   background-color: black;
+  margin: 10px auto;
 }
 
  /* Locations Section */
