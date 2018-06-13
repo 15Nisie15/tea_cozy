@@ -85,6 +85,7 @@ header nav {
   flex-wrap: wrap;
   align-items: space-around;
   justify-content: center;
+  margin: 30px auto;
 }
 
 .teaphoto {
@@ -131,22 +132,35 @@ header nav {
 }
 
 .caption {
-  height: 42px;
+  height: 32px;
   width: 300px;
   background-color: black;
-  margin: 10px auto;
 }
 
  /* Locations Section */
 
  .locations {
-   display: flex;
-   z-index: 4;
-   background-image: url("./images/img-locations-background.jpg");
+  display: flex;
+  z-index: 4;
+  flex-direction: column;
+  background-image: url("./images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
  }
 
-.addressbox {
+.title {
+  width: 1200px;
+}
 
+.addresses {
+  display: flex;
+  flex-direction: row;
+}
+
+.addressbox {
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
 }
 
  /* Footer */
