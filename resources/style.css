@@ -18,7 +18,6 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
-/* Other Universal Styles - not sure yet */
 
 /* Header */
 
@@ -54,10 +53,10 @@ header nav {
 /* Main Content Container */
 .content {
   display: flex;
-  width: 1232px;
   z-index: 2;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 /* Mission Banner */
